@@ -21,24 +21,42 @@ Website ini menggabungkan teknologi **Image Captioning** dan **RAG (Retrieval-Au
 
 ## 📦 Installation Guide
 
-1. Clone repository ini ke dalam perangkat lokal Anda:
+1. **Clone repository ini ke dalam perangkat lokal Anda:**
+   ```bash
    git clone <repository-url>
+   ```
 
-2. Buat virtual environment (opsional tapi disarankan):
-   - `python -m venv env`
-   - `source env/bin/activate`        # (Linux/Mac)
-   - `env\Scripts\activate`           # (Windows)
+2. **Buat virtual environment (opsional tapi disarankan):**
+   ```bash
+   python -m venv env
+   ```
 
-3. Install semua dependensi yang dibutuhkan:
-   - `pip install -r requirements.txt`
+   - **Aktifkan environment:**
+     - Linux/Mac:
+       ```bash
+       source env/bin/activate
+       ```
+     - Windows:
+       ```bash
+       env\Scripts\activate
+       ```
 
-4. Unduh model bahasa Inggris dari spaCy:
-   - `python -m spacy download en_core_web_sm`
+3. **Install semua dependensi yang dibutuhkan:**
+   ```bash
+   pip install -r requirements.txt
+   ```
+
+4. **Unduh model bahasa Inggris dari spaCy:**
+   ```bash
+   python -m spacy download en_core_web_sm
+   ```
 
 ## 🚀 Menjalankan Aplikasi
 
-5. Jalankan aplikasi menggunakan uvicorn:
-   - ```uvicorn main:app```
+5. **Jalankan aplikasi menggunakan uvicorn:**
+   ```bash
+   uvicorn main:app
+   ```
 
 ## 📬 (Opsional) Pengujian API
 
