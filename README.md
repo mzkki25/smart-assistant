@@ -25,15 +25,15 @@ Website ini menggabungkan teknologi **Image Captioning** dan **RAG (Retrieval-Au
    git clone <repository-url>
 
 2. Buat virtual environment (opsional tapi disarankan):
-   python -m venv env
-   source env/bin/activate        # (Linux/Mac)
-   env\Scripts\activate           # (Windows)
+   - `python -m venv env`
+   - `source env/bin/activate`        # (Linux/Mac)
+   - `env\Scripts\activate`           # (Windows)
 
 3. Install semua dependensi yang dibutuhkan:
-   pip install -r requirements.txt
+   - `pip install -r requirements.txt`
 
 4. Unduh model bahasa Inggris dari spaCy:
-   python -m spacy download en_core_web_sm
+   - `python -m spacy download en_core_web_sm`
 
 ## 🚀 Menjalankan Aplikasi
 
