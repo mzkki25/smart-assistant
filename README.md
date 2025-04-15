@@ -38,7 +38,7 @@ Website ini menggabungkan teknologi **Image Captioning** dan **RAG (Retrieval-Au
 ## 🚀 Menjalankan Aplikasi
 
 5. Jalankan aplikasi menggunakan uvicorn:
-   uvicorn main:app --reload
+   - `uvicorn main:app`
 
 ## 📬 (Opsional) Pengujian API
 
