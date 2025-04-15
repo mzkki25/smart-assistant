@@ -1,0 +1,9 @@
+fastapi==0.115.6
+pydantic==2.10.6
+pillow==10.4.0
+sentence_transformers==4.0.2
+pdfplumber==0.11.5
+spacy==3.8.5
+numpy==1.26.4
+scikit-learn==1.5.1
+gradio_client==1.5.2
