@@ -15,12 +15,12 @@ Website ini dirancang sebagai **Smart Knowledge Assistant** yang memiliki dua fi
 
 Website ini menggabungkan teknologi **Image Captioning** dan **RAG (Retrieval-Augmented Generation)** untuk menyediakan asistensi cerdas berbasis konten visual dan dokumen teks.
 
-===
+----------------------
 
 # Ikuti langkah-langkah di bawah ini untuk menjalankan proyek:
 
 ## 📦 Installation Guide
-----------------------
+
 1. Clone repository ini ke dalam perangkat lokal Anda:
    git clone <repository-url>
 
@@ -36,12 +36,12 @@ Website ini menggabungkan teknologi **Image Captioning** dan **RAG (Retrieval-Au
    python -m spacy download en_core_web_sm
 
 ## 🚀 Menjalankan Aplikasi
-------------------------
+
 5. Jalankan aplikasi menggunakan uvicorn:
    uvicorn main:app --reload
 
 ## 📬 (Opsional) Pengujian API
------------------------------
+
 Jika ingin menguji API menggunakan request POST:
 
 1. Masuk ke folder `test`
@@ -63,7 +63,7 @@ Jika ingin menguji API menggunakan request POST:
 - Gunakan log dari terminal untuk mengetahui status server atau debug error yang muncul.
 
 ## 📂 Struktur Penting
----------------------
+
 - `main.py`         : Berisi seluruh route FastAPI
 - `static/`         : Folder untuk file JS & CSS frontend
 - `uploads/`        : Tempat menyimpan file PDF atau gambar yang diunggah
