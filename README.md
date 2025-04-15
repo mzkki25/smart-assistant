@@ -36,7 +36,7 @@ Jika ingin menguji API menggunakan request POST:
    *Pastikan file PDF atau gambar yang akan diuji telah tersedia di direktori yang sesuai.*
 
 4. Alternatif lain:
-   Gunakan Postman dan sesuaikan URL dan route endpoint sesuai konfigurasi lokal Anda:
+   Unduh `Smart Assistant API Test.postman_collection.json`. Gunakan Postman dan sesuaikan URL dan route endpoint sesuai konfigurasi lokal Anda:
    - POST /upload_pdf
    - POST /ask
    - POST /upload_image
