@@ -23,7 +23,7 @@ Website ini menggabungkan teknologi **Image Captioning** dan **RAG (Retrieval-Au
 
 1. **Clone repository ini ke dalam perangkat lokal Anda:**
    ```bash
-   git clone <repository-url>
+   git clone https://github.com/mzkki25/smart-assistant.git
    ```
 
 2. **Buat virtual environment (opsional tapi disarankan):**
@@ -31,15 +31,14 @@ Website ini menggabungkan teknologi **Image Captioning** dan **RAG (Retrieval-Au
    python -m venv env
    ```
 
-   - **Aktifkan environment:**
-     - Linux/Mac:
-       ```bash
-       source env/bin/activate
-       ```
-     - Windows:
-       ```bash
-       env\Scripts\activate
-       ```
+   - Aktifkan environment jika menggunakan Linux/Mac:
+      ```bash
+      source env/bin/activate
+      ```
+   - Aktifkan environment jika menggunakan Windows:
+      ```bash
+      env\Scripts\activate
+      ```
 
 3. **Install semua dependensi yang dibutuhkan:**
    ```bash
