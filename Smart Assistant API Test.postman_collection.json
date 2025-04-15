@@ -1,0 +1,106 @@
+{
+	"info": {
+		"_postman_id": "80e5f900-549c-4b3a-a96d-60dbbe1e18d2",
+		"name": "Smart Assistant API Test",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "39350551"
+	},
+	"item": [
+		{
+			"name": "Upload PDF API Test",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "formdata",
+					"formdata": [
+						{
+							"key": "file",
+							"type": "file",
+							"src": "/C:/Users/Huawei/Downloads/Curriculum Vitae - Akmal Muzakki Bakir.pdf"
+						},
+						{
+							"key": "file",
+							"type": "file",
+							"src": "/C:/Users/Huawei/Downloads/Dampak Silent Revolution_ Optimalisasi Model Hybrid Edge-Cloud Computing untuk Masa Depan Kecepatan Data.pdf"
+						}
+					]
+				},
+				"url": {
+					"raw": "http://localhost:8000/upload_pdf",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8000",
+					"path": [
+						"upload_pdf"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Upload Image Response API Test",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "formdata",
+					"formdata": [
+						{
+							"key": "file",
+							"type": "file",
+							"src": "/C:/Users/Huawei/Downloads/User (16).png"
+						},
+						{
+							"key": "file",
+							"type": "file",
+							"src": "/C:/Users/Huawei/Downloads/classification validation (1).png"
+						}
+					]
+				},
+				"url": {
+					"raw": "http://localhost:8000/upload_image",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8000",
+					"path": [
+						"upload_image"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Ask Message API Test",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "// Ini dijalankan setelah method POST Upload Image dijalankan (karena akan membaca dokumennya terlebih dahulu)\r\n\r\n{\r\n  \"question\": \"Apa isi utama dokumen ini?\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:8000/ask",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8000",
+					"path": [
+						"ask"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}

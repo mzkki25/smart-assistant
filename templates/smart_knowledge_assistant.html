@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Smart Knowledge Assistant</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="static/css/smart_knowledge_assistant.css">
+    <link rel="stylesheet" href="static/css/style.css">
+</head>
+<body>
+    <div class="container">
+        <h2>🧠 Smart Knowledge Assistant</h2>
+
+        <div class="upload-section">
+            <input type="file" id="pdfFile" accept=".pdf" />
+                <button onclick="uploadPDF()">Upload PDF</button>
+            </div>
+
+            <div id="chat-box" class="flex-column"></div>
+
+            <div class="chat-input">
+                <input type="text" id="query" placeholder="Ask me something..." />
+            <button onclick="sendQuery()">Send</button>
+        </div>
+
+        <div class="nav-buttons">
+            <button onclick="goToPage('ai_image_page')">🔁 Switch to Image Caption</button>
+        </div>
+    </div>
+
+  <script src="static/js/smart_knowledge_assistant.js"></script>
+  <script src="static/js/script.js"></script>
+</body>
+</html>

@@ -1,0 +1,17 @@
+.nav-buttons {
+    text-align: right;
+    padding: 10px;
+}
+
+.nav-buttons button {
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    padding: 8px 16px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.nav-buttons button:hover {
+    background-color: #45a049;
+}
